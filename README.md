@@ -1,50 +1,44 @@
-A simple web application to explore and filter cat breeds using data fetched from TheCatAPI.
+# 🐱 Cat Breed Selector App
 
-Features
-Display all cat breed names.
+This is a simple web application built using **HTML**, **CSS**, and **JavaScript** that fetches cat breed data from **The Cat API** and allows users to interact with and filter this data using different criteria.
 
-Filter breeds by the number of health issues.
+📋 Features
 
-Show breed weights in Imperial or Metric units.
+- ✅ Fetches and loads breed data from the Cat API when the page loads
+- 🐾 Displays all cat breed names
+- 🏥 Filters breeds by number of health issues
+- ⚖️ Displays cat breed weights in either **imperial** or **metric** units
+- 🧠 Shows intelligence and child-friendliness scores
+- 📊 Calculates:
+  - Average intelligence of all breeds
+  - Average intelligence for breeds with **child-friendly** score of **4**
 
-Display intelligence and child-friendly scores of each breed.
+🚀 How to Use
 
-Calculate and display the average intelligence of all breeds.
+1. Open the `index.html` file in any web browser.
+2. Wait for the data to load (a message will appear).
+3. Use the buttons and input fields to interact with the app:
+   - **All Names** – Lists all breed names.
+   - **Health Issues** – Enter a number to filter breeds with that number of health issues.
+   - **Weight** – Select either `Imperial` or `Metric`, then click to view breed weights.
+   - **Intelligence - Friendly** – Shows intelligence and child-friendliness scores.
+   - **Average Intelligence** – Calculates average intelligence across all breeds.
+   - **Average Intelligence for Child Friendly = 4** – Calculates average intelligence for breeds with a child-friendliness score of 4.
 
-Calculate average intelligence for breeds that are child-friendly (score = 4).
+🧠 Technologies Used
 
-How to Use
-Open the index.html file in your web browser.
+- **HTML5** – Structure of the web page
+- **CSS3** – Basic styling
+- **JavaScript (ES6)** – Logic and API interaction
+- **Fetch API** – To retrieve cat breed data from [The Cat API](https://thecatapi.com/)
 
-Wait for the data to load from TheCatAPI.
+🌐 API Reference
 
-Use the buttons and inputs to explore the cat breeds:
+- **Endpoint:** `https://api.thecatapi.com/v1/breeds`
+- No API key is required for basic data fetching.
 
-All Names: Lists all breed names.
+🧑‍💻 Author
 
-Health Issues: Enter a number to filter breeds by health issues.
+**Niraj Bhandari**
+⚠️ Note: Some of the functions and scripts were developed with assistance from AI tools to ensure smooth functionality.
 
-Weight: Select Imperial or Metric units and click the button to view weights.
-
-Intelligence - Friendly: Shows intelligence and child-friendly scores.
-
-Average Intelligence: Displays the average intelligence of all breeds.
-
-Average Intelligence for Child Friendly = 4: Shows average intelligence for breeds with child-friendliness score of 4.
-
-Technologies Used
-HTML
-
-CSS (inline style)
-
-JavaScript (Fetch API for HTTP requests)
-
-Notes
-The app fetches real-time data from TheCatAPI.
-
-Internet connection is required to fetch the data successfully.
-
-Data fetching errors are handled and displayed in the results area.
-
-Author
-Niraj Bhandari
